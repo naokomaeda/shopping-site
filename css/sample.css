@@ -44,7 +44,7 @@ header #header_in .row {
       margin-bottom: -32767px; }
   #main #Products_area {
     background-color: #fff;
-    padding: 20px 40px; }
+    padding: 20px 20px; }
     #main #Products_area .row {
       border-bottom: 1px solid #e8e4da;
       padding-bottom: 10px; }
@@ -66,10 +66,10 @@ header #header_in .row {
           display: inline-block;
           margin-bottom: 0; }
         #main #Products_area .row .columns ul li img.slide {
-          width: 79px;
           cursor: pointer;
-          margin-bottom: 0; }
-      #main #Products_area .row .display_img {
+          margin-bottom: 0;
+          width: 76px; }
+      #main #Products_area .row #display_img {
         margin: 0;
         padding: 0; }
     #main #Products_area .colorSize_tbl {
@@ -228,7 +228,7 @@ header #header_in .row {
         margin-bottom: 0; }
       #side #searchBox form dl.search dt input {
         width: 100%;
-        height: 10px;
+        height: 14px;
         background: none;
         border: none;
         margin-bottom: 0; }
@@ -425,9 +425,12 @@ footer .copy {
     margin-top: 15px; }
     #side #about .shopInfo, #side #shopInfomation .shopInfo {
       overflow: hidden; }
-      #side #about .shopInfo img, #side #shopInfomation .shopInfo img {
+      #side #about .shopInfo img.shop_pic, #side #shopInfomation .shopInfo img.shop_pic {
         float: left;
-        margin-right: 10px; }
+        margin-right: 10px;
+        width: 50%;
+        max-width: 50%;
+        height: auto; }
       #side #about .shopInfo #more1, #side #about .shopInfo #more2, #side #shopInfomation .shopInfo #more1, #side #shopInfomation .shopInfo #more2 {
         float: right; }
       #side #about .shopInfo p, #side #shopInfomation .shopInfo p {
@@ -482,6 +485,10 @@ footer .copy {
 
   #side #about .shopInfo, #side #shopInfomation .shopInfo {
     text-align: center; }
+    #side #about .shopInfo img.shop_pic, #side #shopInfomation .shopInfo img.shop_pic {
+      width: 100%;
+      max-width: 100%;
+      height: auto; }
   #side #searchBox {
     padding: 5px 15px 17px 15px; }
 
