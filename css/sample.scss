@@ -80,7 +80,7 @@ header{
   
   }
   
-  #Products_area {
+    #Products_area {
     background-color: #fff;
     padding: 20px 20px;
     
@@ -113,21 +113,41 @@ header{
             display: inline-block;
             margin-bottom: 0;
           }
-      
-          li img.slide {
-            cursor: pointer;
-            margin-bottom: 0;
-            width: 76px;
-          }
-          
+
         }
         
       }
       
-      #display_img {
-        margin: 0;
-        padding: 0;
-      }
+    }
+    
+    #slide {
+          
+          /* main picture */
+          #display_img {
+            margin: 0;
+            padding: 0;
+            
+            img {
+              width: 100%;
+            }
+          }
+
+          /* picture list */          
+          ul#list_img {
+            margin: 0;
+            padding: 0;
+            
+            li {
+
+            }
+
+            li img.slide {
+              cursor: pointer;
+              margin-bottom: 0;
+              width: 100%;
+            }
+            
+          }
       
     }
     

@@ -65,13 +65,21 @@ header #header_in .row {
           list-style: none;
           display: inline-block;
           margin-bottom: 0; }
-        #main #Products_area .row .columns ul li img.slide {
-          cursor: pointer;
-          margin-bottom: 0;
-          width: 76px; }
-      #main #Products_area .row #display_img {
+    #main #Products_area #slide {
+      /* main picture */
+      /* picture list */ }
+      #main #Products_area #slide #display_img {
         margin: 0;
         padding: 0; }
+        #main #Products_area #slide #display_img img {
+          width: 100%; }
+      #main #Products_area #slide ul#list_img {
+        margin: 0;
+        padding: 0; }
+        #main #Products_area #slide ul#list_img li img.slide {
+          cursor: pointer;
+          margin-bottom: 0;
+          width: 100%; }
     #main #Products_area .colorSize_tbl {
       width: 99%;
       border-collapse: collapse;
