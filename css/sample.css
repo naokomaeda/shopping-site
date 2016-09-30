@@ -44,7 +44,7 @@ header #header_in .row {
       margin-bottom: -32767px; }
   #main #Products_area {
     background-color: #fff;
-    padding: 20px 20px; }
+    padding: 20px 40px; }
     #main #Products_area .row {
       border-bottom: 1px solid #e8e4da;
       padding-bottom: 10px; }
@@ -66,19 +66,10 @@ header #header_in .row {
           display: inline-block;
           margin-bottom: 0; }
     #main #Products_area #slide {
-      /* main picture */
-      /* picture list */ }
+      /* main picture */ }
       #main #Products_area #slide #display_img {
-        margin: 0;
-        padding: 0; }
+        margin: 0; }
         #main #Products_area #slide #display_img img {
-          width: 100%; }
-      #main #Products_area #slide ul#list_img {
-        margin: 0;
-        padding: 0; }
-        #main #Products_area #slide ul#list_img li img.slide {
-          cursor: pointer;
-          margin-bottom: 0;
           width: 100%; }
     #main #Products_area .colorSize_tbl {
       width: 99%;
@@ -417,6 +408,18 @@ footer .copy {
     margin: 13px 0 0 0; }
     #main #Products_area .container p.number {
       padding-top: 5px; }
+  #main #Products_area #slide {
+    /* picture list */ }
+    #main #Products_area #slide ul#list_img {
+      margin: 0;
+      padding: 0; }
+      #main #Products_area #slide ul#list_img li {
+        display: inline;
+        width: 100%;
+        margin-right: 0; }
+      #main #Products_area #slide ul#list_img li img.slide {
+        cursor: pointer;
+        width: 19%; }
   #main .pc_cate_eyecatch {
     display: none; }
   #main .sp_cate_eyecatch {
@@ -485,6 +488,18 @@ footer .copy {
     padding: 20px 0 0 0; }
   #main #Products_area .container {
     margin: 15px 0 0 0; }
+  #main #Products_area #slide {
+    /* picture list */ }
+    #main #Products_area #slide ul#list_img {
+      margin: 0;
+      padding: 0;
+      text-align: right; }
+      #main #Products_area #slide ul#list_img li {
+        display: inline;
+        width: 100%; }
+      #main #Products_area #slide ul#list_img li img.slide {
+        cursor: pointer;
+        width: 47%; }
   #main .pc_cate_eyecatch {
     padding-top: 20px;
     padding-bottom: 5px; }

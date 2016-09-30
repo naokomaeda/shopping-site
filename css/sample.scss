@@ -82,7 +82,7 @@ header{
   
     #Products_area {
     background-color: #fff;
-    padding: 20px 20px;
+    padding: 20px 40px;
     
     .row {
       border-bottom: 1px solid #e8e4da;
@@ -122,34 +122,16 @@ header{
     
     #slide {
           
-          /* main picture */
-          #display_img {
-            margin: 0;
-            padding: 0;
-            
-            img {
-              width: 100%;
-            }
-          }
+      /* main picture */
+      #display_img {
+        margin: 0;
+        
+        img {
+          width: 100%;
+        }
+      }
 
-          /* picture list */          
-          ul#list_img {
-            margin: 0;
-            padding: 0;
-            
-            li {
-
-            }
-
-            li img.slide {
-              cursor: pointer;
-              margin-bottom: 0;
-              width: 100%;
-            }
-            
-          }
-      
-    }
+    }//#slide
     
     .colorSize_tbl{
       width: 99%;
@@ -635,18 +617,40 @@ footer {
       p.number {
         padding-top: 5px;
       }
-      
+
     }
+    
+    #slide {
+
+      /* picture list */          
+      ul#list_img {
+        margin :0;
+        padding: 0;
+        
+        li {
+          display: inline;
+          width: 100%;
+          margin-right: 0;
+        }
+  
+        li img.slide {
+          cursor: pointer;
+          width: 19%;
+        }
+        
+      }//ul#list_img
+      
+    }//#slide
   
   }
   
-    .pc_cate_eyecatch {
-      display: none;
-    }
-  
-    .sp_cate_eyecatch {
-      padding-top: 10px;
-    }
+  .pc_cate_eyecatch {
+    display: none;
+  }
+
+  .sp_cate_eyecatch {
+    padding-top: 10px;
+  }
 
 }//#main
 
@@ -785,6 +789,29 @@ footer {
       .container {
         margin: 15px 0 0 0;
       }
+      
+      #slide {
+
+        /* picture list */          
+        ul#list_img {
+          margin: 0;
+          padding: 0;
+          text-align: right;
+          
+          li {
+            display: inline;
+            width: 100%;
+          }
+  
+          li img.slide {
+            cursor: pointer;
+            width: 47%;
+          }
+          
+        }//ul#list_img
+      
+      }//#slide
+      
     }
 
     .pc_cate_eyecatch {
