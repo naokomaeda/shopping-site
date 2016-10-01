@@ -77,7 +77,7 @@ header{
     .box {
       @include flex(1);
       margin: 2px;
-      padding: 8px;
+      padding: 10px;
       background-color: #fff;
       @include box-sizing(border-box);
       text-align: center;
