@@ -35,9 +35,34 @@ header #header_in .row {
 #main {
   margin: 0;
   padding: 0; }
-  #main #newitemsPicture_area .row, #main #popularitemsPicture_area .row, #main #guidePicture_area .row, #main #listPicture_area .row {
+  #main #newitemsPicture_area .container, #main #popularitemsPicture_area .container, #main #listPicture_area .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-flow: row wrap; }
+  #main #newitemsPicture_area .box, #main #popularitemsPicture_area .box, #main #listPicture_area .box {
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 2px;
+    padding: 8px;
+    background-color: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    flex: 1 0 30%; }
+    #main #newitemsPicture_area .box p, #main #popularitemsPicture_area .box p, #main #listPicture_area .box p {
+      margin-bottom: 0;
+      padding: 8px;
+      text-align: left; }
+    #main #newitemsPicture_area .box img.listImg, #main #popularitemsPicture_area .box img.listImg, #main #listPicture_area .box img.listImg {
+      width: 100%;
+      height: auto; }
+  #main #guidePicture_area .row {
     overflow: hidden; }
-    #main #newitemsPicture_area .row .columns, #main #popularitemsPicture_area .row .columns, #main #guidePicture_area .row .columns, #main #listPicture_area .row .columns {
+    #main #guidePicture_area .row .columns {
       background-color: #fff;
       padding: 10px 10px 0 10px;
       padding-bottom: 32767px;
@@ -404,6 +429,8 @@ footer .copy {
     padding-top: 20px; }
   #main #newitemsPicture_area .container, #main #popularitemsPicture_area .container, #main #guidePicture_area .container, #main #listPicture_area .container {
     padding: 18px 0 0 0; }
+  #main #newitemsPicture_area .box, #main #popularitemsPicture_area .box, #main #listPicture_area .box {
+    flex: 0 0 49%; }
   #main #Products_area .container {
     margin: 13px 0 0 0; }
     #main #Products_area .container p.number {

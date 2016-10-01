@@ -26,10 +26,10 @@
 .owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1;*display:inline}
 
 .owl-theme .owl-dots .owl-dot span{
-                                    width:10px;
-                                    height:10px;
-                                    margin:5px 7px;
-                                    background:#d6d6d6;
+                                    width:25px;
+                                    height:2px;
+                                    margin:7px 4px;
+                                    background:#aaaaaa;
                                     display:block;
                                     -webkit-backface-visibility:visible;
                                     -webkit-transition:opacity 200ms ease;
@@ -41,4 +41,4 @@
                                     -moz-border-radius:30px;
                                     border-radius:30px}
                                     
-.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#9d1a2d}
